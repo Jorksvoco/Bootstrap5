@@ -1,6 +1,6 @@
 // custom variable values
-$primary: #22c55e;    // Vibrant Active Green (Fresh, high-energy for prices & outlines)
-$secondary: #0f172a;  // Dark Charcoal/Obsidian (Sleek, modern tech look for text & main buttons)
+$primary: #22c55e;   
+$secondary: #0f172a;  
 $light: #ffffff;
 
 // import the functions & variables
@@ -9,8 +9,8 @@ $light: #ffffff;
 
 // custom theme colours
 $custom-theme-colors: (
-  "altlight": #f0fdf4, // Ultra-light Mint Tint (Super clean, easy-on-the-eyes section backgrounds)
-  "altdark": #eab308   // Classic Trophy Gold (For your review stars)
+  "altlight": #f0fdf4, 
+  "altdark": #eab308   
 );
 
 // merge the maps to add new theme colors
