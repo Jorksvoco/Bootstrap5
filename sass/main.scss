@@ -1,19 +1,20 @@
 // custom variable values
-$primary: #00bfef;
-$light: #9e884a;
+$primary: #22c55e;    // Vibrant Active Green (Fresh, high-energy for prices & outlines)
+$secondary: #0f172a;  // Dark Charcoal/Obsidian (Sleek, modern tech look for text & main buttons)
+$light: #ffffff;
 
 // import the functions & variables
-@import "../node_modules/bootstrap/scss/_functions";
-@import "../node_modules/bootstrap/scss/_variables";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
 
 // custom theme colours
 $custom-theme-colors: (
-  "altlight": #f2ebfa,
-  "altdark": #0b54dc
+  "altlight": #f0fdf4, // Ultra-light Mint Tint (Super clean, easy-on-the-eyes section backgrounds)
+  "altdark": #eab308   // Classic Trophy Gold (For your review stars)
 );
 
 // merge the maps to add new theme colors
-$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
 // import bootstrap
-@import "../workspaces/Bootstrap5/node_modules/bootstrap/scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
